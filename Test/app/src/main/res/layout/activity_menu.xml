@@ -7,7 +7,7 @@
     tools:context=".MenuActivity">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/toastButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="161dp"
@@ -16,7 +16,7 @@
         android:layout_marginEnd="162dp"
         android:layout_marginRight="162dp"
         android:layout_marginBottom="524dp"
-        android:onClick="onButtonClicked"
+        android:onClick="onToastButtonClicked"
         android:text="Toast"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

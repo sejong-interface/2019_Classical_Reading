@@ -7,10 +7,10 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/internetButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="onButton1Clicked"
+        android:onClick="onNaverButtonClicked"
         android:text="인터넷 버튼"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.417" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/nextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="161dp"
@@ -29,11 +29,11 @@
         android:layout_marginEnd="162dp"
         android:layout_marginRight="162dp"
         android:layout_marginBottom="271dp"
-        android:onClick="onButton2Clicked"
+        android:onClick="onNextButtonClicked"
         android:text="다음 화면"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/toastButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,15 +14,15 @@ public class ToastActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_toast);
-        Button b1 = (Button) findViewById(R.id.showToastBtn);
-        b1.setOnClickListener(new View.OnClickListener(){
+        Button showToastbtn = (Button) findViewById(R.id.showToastBtn);
+        showToastbtn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), "Hello",Toast.LENGTH_SHORT).show();
             }
         });
-        Button b2 = (Button) findViewById(R.id.gotoGIthubBtn);
-        b2.setOnClickListener(new View.OnClickListener() {
+        Button githubBtn = (Button) findViewById(R.id.gotoGIthubBtn);
+        githubBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/skyil7"));

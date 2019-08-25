@@ -12,8 +12,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button b1 = (Button) findViewById(R.id.toastBtn);
-        b1.setOnClickListener(new View.OnClickListener(){
+        Button toToastBtn = (Button) findViewById(R.id.toastBtn);
+        toToastBtn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ToastActivity.class);

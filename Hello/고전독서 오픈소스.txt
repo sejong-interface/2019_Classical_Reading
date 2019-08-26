@@ -1,9 +1,0 @@
-안드로이드 USB 디버깅 사용하는 방법 : https://www.kuccblog.net/1653
-
-버튼 생성 및 토스트 : https://hongku.tistory.com/204
-
-버튼을 이용해 웹 페이지 띄우기 : https://hongku.tistory.com/205
-
-버튼을 이용해 다음 화면 호출 : https://hongku.tistory.com/206
-
-안드로이드 스튜디오 외장하드 설치 : https://wowoffice.tistory.com/21

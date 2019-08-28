@@ -67,6 +67,10 @@ JAVA에 대한 충분한 이해를 위해서 JAVA스터디와 주마다 정기�
 * 안드로이드 인터넷 퍼미션 : https://slobell.com/blogs/48
 
 
+유진
+* 버튼과 화면 전환 : https://blog.naver.com/bdh0702/221582338501
+* 인터넷 연결과 토스트 띄우기 : https://m.blog.naver.com/PostView.nhnblogId=sks6624&logNo=150173583155&proxyReferer=https%3A%2F%2Fwww.google.com%2F
+
 <주차별 진행사항>
 -----------------
 사전준비(8월 18일): 안드로이드 개발을 위한 기초 JAVA강의 + 깃허브 강의, 어플리케이션 기획 및 개발시 필요한 사항 정리\

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="field">
+        <item>서양의 역사와 사상</item>
+        <item>동양의 역사와 사상</item>
+        <item>동서양의 문학</item>
+        <item>과학 사상</item>
+    </string>
+    <string name="name">
+
+    </string>
+</resources>

@@ -14,11 +14,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button NextBtn = (Button) findViewById(R.id.Btn_NextMenu);
+        Button RegisterBtn = (Button) findViewById(R.id.Btn_Register);
+
         NextBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent_NextPage = new Intent(getApplicationContext(),NextMenu.class);
                 startActivity(intent_NextPage);
+            }
+        });
+
+        RegisterBtn.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent_RegisterPage = new Intent(getApplicationContext(),RegisterMenu.class);
+                startActivity(intent_RegisterPage);
             }
         });
     }

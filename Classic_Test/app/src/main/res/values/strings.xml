@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Classic_Test</string>
+    <string name="textview_message" formatted="false">%1$20s\n\n %2$20s %3$20s %4$20s %5$20s %6$20s %7$20s\n</string>
+</resources>
